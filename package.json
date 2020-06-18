@@ -13,6 +13,15 @@
     "url": "https://github.com/bleenco/ngx-uploader/issues"
   },
   "homepage": "http://ngx-uploader.com",
+  "main": "dist/bundles/ngx-uploader.umd.js",
+  "module": "dist/fesm5/ngx-uploader.js",
+  "es2015": "dist/fesm2015/ngx-uploader.js",
+  "esm5": "dist/esm5/ngx-uploader.js",
+  "esm2015": "dist/esm2015/ngx-uploader.js",
+  "fesm5": "dist/fesm5/ngx-uploader.js",
+  "fesm2015": "dist/fesm2015/ngx-uploader.js",
+  "typings": "dist/ngx-uploader.d.ts",
+  "metadata": "dist/ngx-uploader.metadata.json",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
