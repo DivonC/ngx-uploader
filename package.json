@@ -1,6 +1,6 @@
 {
   "name": "ngx-uploader-demo",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bleenco/ngx-uploader.git"
@@ -22,7 +22,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:lib": "ng build ngx-uploader --prod",
-    "prepare": "npm run build:prod"
+    "prepare": "npm run build:lib"
   },
   "private": true,
   "dependencies": {
